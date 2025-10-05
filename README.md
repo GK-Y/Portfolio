@@ -37,5 +37,5 @@ A web-based calculator built using HTML, CSS, and JavaScript.
 You can reach me through the following channels:
 
 - [GitHub](https://github.com/GK-Y)
-- [LinkedIn](www.linkedin.com/in/gk-yedhu-sai-krishna)
+- [LinkedIn](https://www.linkedin.com/in/gk-yedhu-sai-krishna)
 - E-mail: gkyedhu01@gmail.com
