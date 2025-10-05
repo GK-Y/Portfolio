@@ -1,0 +1,178 @@
+:root {
+  --dark1: #36453B;
+  --dark2: #596869;
+  --dark3: #515751;
+  --light1: #F5F9E9;
+  --light2: #C2C1A5;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: var(--light1);
+  color: var(--dark1);
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 1em;
+  background: var(--dark1);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--light1);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: var(--light2);
+}
+
+#About {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 20px;
+}
+
+#About img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 4px solid var(--dark2);
+}
+
+#About .content {
+  max-width: 700px;
+}
+
+#About h3 {
+  font-size: 1.8rem;
+  color: var(--dark3);
+  text-decoration: underline 3px;
+}
+
+#About p {
+  color: var(--dark2);
+  line-height: 1.6;
+  font-size: 1.3em;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  color: var(--dark2);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+}
+
+.skills div {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--dark3);
+  transition: transform 0.2s;
+}
+
+.skills div:hover {
+  transform: scale(1.1);
+  color: var(--dark1);
+}
+
+.skills i {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: var(--dark2);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.card {
+  background: var(--light2);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 35vh;
+  height: 40vh;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+}
+
+.card h4 {
+  margin: 3px;
+  color: var(--dark1);
+}
+
+#Contact {
+  background: var(--dark1);
+  color: var(--light1);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.contact-icons a {
+  color: var(--light2);
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.contact-icons a:hover {
+  color: var(--light1);
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #About {
+    flex-direction: column;
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
