@@ -1,43 +1,33 @@
-# Portfolio
-This is my personal portfolio website showcasing my skills, projects, and contact information.
-[Portfolio](https://gk-y.github.io/Portfolio/)
+# Personal Portfolio Website
+
+This is my personal portfolio website built using basic **HTML** and **CSS**.  
+It serves as a showcase of my **skills, projects, and contact links** in a simple and responsive design.
 
 ---
 
-## About Me:
+## Overview
 
-I’m a beginner in programming with a strong interest in problem-solving and creating practical solutions.  
-I enjoy learning by building projects and find it rewarding to turn ideas into working code.  
-I’m curious about different areas of technology, from machine learning to operating systems, and I’m committed to continuously learning and improving my skills.
-
----
-## Skills
-
-- Python
-- C++
-- HTML5
-- CSS3
-- JavaScript
+The website consists of four main sections:
+1. **About** – A brief introduction about me and my interests in programming.  
+2. **Skills** – Technologies and languages I’m learning or familiar with.  
+3. **Projects** – A collection of small projects I’ve built and showcased with screenshots.  
+4. **Contact** – Links to my GitHub, LinkedIn, and email for easy reach.
 
 ---
-## Projects
 
-### Map Generator
-A simple 2D procedural map generator built as a practice project.
-[Link](https://github.com/GK-Y/wave-function-collapse-2D)
+## Tech Stack and features
 
-### Rope Physics
-A small physics simulation demonstrating rope mechanics.
-[Link](https://github.com/GK-Y/Particle-Rope)
-
-### Calculator
-A web-based calculator built using HTML, CSS, and JavaScript.
-[Link](https://github.com/GK-Y/Webpage-Calculator)
+- **HTML5** – Structure of the website  
+- **CSS3** – Styling and layout  
+- **Font Awesome** – Icons for skills and social links  
+- **Responsive Design** – Works well across devices
 
 ---
-## Contact
-You can reach me through the following channels:
 
-- [GitHub](https://github.com/GK-Y)
-- [LinkedIn](https://www.linkedin.com/in/gk-yedhu-sai-krishna)
-- E-mail: gkyedhu01@gmail.com
+## Deployment
+
+This portfolio is hosted using **GitHub Pages**.  
+You can view it live here:  
+[https://GK-Y.github.io/portfolio/](https://GK-Y.github.io/portfolio/)
+
+---
