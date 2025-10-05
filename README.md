@@ -23,11 +23,16 @@ The website consists of four main sections:
 - **Responsive Design** – Works well across devices
 
 ---
-
 ## Deployment
 
 This portfolio is hosted using **GitHub Pages**.  
-You can view it live here:  
-[https://GK-Y.github.io/portfolio/](https://GK-Y.github.io/portfolio/)
+You can view it live [here](https://gk-y.github.io/Portfolio/).
+
+---
+
+## Webpage
+
+![web page image 1](Assets/web_sample1.png)
+![web page image 2](Assets/web_sample2.png)
 
 ---
